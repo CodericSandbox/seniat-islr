@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.5.4.1deb2ubuntu2
+- https://www.phpmyadmin.net
+-
+- Servidor: localhost
+- Tiempo de generación: 24-06-2017 a las 16:33:40
+- Versión del servidor: 5.7.18-0ubuntu0.16.04.1
+- Versión de PHP: 7.0.18-0ubuntu0.16.04.1
+- Creado por: Jimmy Olano
+- Correo-e: olano@ks7000.net.ve
+- Códigos por concepto de retención de Impuesto Sobre La Renta
+- según Manual técnico SENIAT N° 60.40.40.039, Versión 2.3, enero 2017,
+- disponible en el Portal Fiscal en formato pdf en el siguiente enlace web:
+- http://declaraciones.seniat.gob.ve/portal/page/portal/MANEJADOR_CONTENIDO_SENIAT/05MENU_HORIZONTAL/5.3ANUNCIOS_CARTELES/5.3.2CARTELES_NOTIFICACION/CARTELES/MT_Retenciones%20ISLRV3.0_2014.pdf
+- Según artículo 25 del Reglamento Parcial de la Ley De Impuesto Sobre La Renta
+- en Materia de Retenciones publicado en la Gaceta Oficial N° 36.203,
+- de fecha lunes 12 de mayo de 1997.
+- 
+- Usted es libre de usar y/o distribuir esta información
+- según la siguiente licencia:
+- https://creativecommons.org/licenses/by-sa/3.0/ve/
+
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="seniat-islr" collation="utf8_spanish_ci" charset="utf8">
+            <pma:table name="seniat_codigo_concepto_retencion_islr">
+                CREATE TABLE `seniat_codigo_concepto_retencion_islr` (
+                  `codigo` tinyint(4) NOT NULL AUTO_INCREMENT,
+                  `concepto` varchar(1024) COLLATE utf8_spanish_ci NOT NULL,
+                  PRIMARY KEY (`codigo`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=87 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci COMMENT='Manual técnico SENIAT N° 60.40.40.039 Versión 2.3 enero 2017';
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de datos: 'seniat-islr'
+    -->
+    <database name="seniat-islr">
+        <!-- Tabla seniat_codigo_concepto_retencion_islr -->
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">1</column>
+            <column name="concepto">Sueldos y Salarios</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">2</column>
+            <column name="concepto">Honorarios Profesionales No Mercantiles (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">3</column>
+            <column name="concepto">Honorarios Profesionales No Mercantiles (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">4</column>
+            <column name="concepto">Honorarios Profesionales No Mercantiles (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">5</column>
+            <column name="concepto">Honorarios Profesionales No Mercantiles (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">6</column>
+            <column name="concepto">Honorarios Profesionales Mancomunados No Mercantiles
+(PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">7</column>
+            <column name="concepto">Honorarios Profesionales Mancomunados No Mercantiles
+(PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">8</column>
+            <column name="concepto">Honorarios Profesionales Mancomunados No Mercantiles
+(PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">9</column>
+            <column name="concepto">Honorarios Profesionales Mancomunados No Mercantiles
+(PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">10</column>
+            <column name="concepto">Honorarios
+Profesionales
+pagados
+a
+Jinetes,
+Veterinarios, Preparadores o Entrenadores (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">11</column>
+            <column name="concepto">Honorarios
+Profesionales
+pagados
+a
+Jinetes,
+Veterinarios, Preparadores o Entrenadores (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">12</column>
+            <column name="concepto">Honorarios Profesionales pagados por Clínicas,
+Hospitales, Centros de Salud, Bufetes, Escritorios,
+Oficinas, Colegios Profesionales u otra Institución
+Profesionales No Mercantiles a Profesionales sin relación de dependencia (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">13</column>
+            <column name="concepto">Honorarios Profesionales pagados por Clínicas,
+Hospitales, Centros de Salud, Bufetes, Escritorios,
+Oficinas, Colegios Profesionales u otra Institución
+Profesionales No Mercantiles a Profesionales sin relación
+de dependencia (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">14</column>
+            <column name="concepto">Comisiones pagadas por la venta de bienes inmuebles
+(PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">15</column>
+            <column name="concepto">Comisiones pagadas por la venta de bienes inmuebles
+(PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">16</column>
+            <column name="concepto">Comisiones pagadas por la venta de bienes inmuebles
+(PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">17</column>
+            <column name="concepto">Comisiones pagadas por la venta de bienes inmuebles
+(PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">18</column>
+            <column name="concepto">Cualquier otra Comisión distintas a Remuneraciones
+accesorias de los sueldos, salarios y demás
+remuneraciones similares (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">19</column>
+            <column name="concepto">Cualquier otra Comisión distintas a Remuneraciones
+accesorias de los sueldos, salarios y demás
+remuneraciones similares (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">20</column>
+            <column name="concepto">Cualquier otra Comisión distintas a Remuneraciones
+accesorias de los sueldos, salarios y demás
+remuneraciones similares (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">21</column>
+            <column name="concepto">Cualquier otra Comisión distintas a Remuneraciones
+accesorias de los sueldos, salarios y demás
+remuneraciones similares (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">22</column>
+            <column name="concepto">Intereses de Capitales tomados en préstamo e invertidos
+en la producción de la renta (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">23</column>
+            <column name="concepto">Intereses de Capitales tomados en préstamo e invertidos
+en la producción de la renta (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">24</column>
+            <column name="concepto">Intereses provenientes de préstamos y otros créditos
+pagaderos a instituciones financieras constituidas en el
+exterior y no domiciliadas en el país (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">25</column>
+            <column name="concepto">Intereses pagados por las personas jurídicas o
+comunidades a cualquier otra persona natural, jurídica o
+comunidad (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">26</column>
+            <column name="concepto">Intereses pagados por las personas jurídicas o
+comunidades a cualquier otra persona natural, jurídica o
+comunidad (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">27</column>
+            <column name="concepto">Intereses pagados por las personas jurídicas o
+comunidades a cualquier otra persona natural, jurídica o
+comunidad (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">28</column>
+            <column name="concepto">Intereses pagados por las personas jurídicas o
+comunidades a cualquier otra persona natural, jurídica o
+comunidad (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">29</column>
+            <column name="concepto">Enriquecimientos Netos de las Agencias Internacionales
+cuando el pagador sea una personas jurídica o
+comunidad domiciliada en el país (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">30</column>
+            <column name="concepto">Enriquecimientos Netos de Gastos de Transporte
+conformados por fletes pagados a agencias o empresas de transporte internacional constituidas y domiciliadas en
+el exterior (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">31</column>
+            <column name="concepto">Enriquecimientos Netos de Gastos de Transporte
+conformados por fletes pagados a agencias o empresas
+de transporte internacional constituidas y domiciliadas en
+el exterior (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">32</column>
+            <column name="concepto">Enriquecimientos Netos de Exhibición de Películas, Cine
+o la Televisión (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">33</column>
+            <column name="concepto">Enriquecimientos Netos de Exhibición de Películas, Cine
+o la Televisión (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">34</column>
+            <column name="concepto">Enriquecimientos obtenidos por concepto de regalías y
+demás participaciones análogas (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">35</column>
+            <column name="concepto">Enriquecimientos obtenidos por concepto de regalías y
+demás participaciones análogas (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">36</column>
+            <column name="concepto">Enriquecimientos obtenidos por las Remuneraciones,
+Honorarios y pagos análogos por Asistencia Técnica
+(PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">37</column>
+            <column name="concepto">Enriquecimientos obtenidos por las Remuneraciones,
+Honorarios y pagos análogos por Asistencia Técnica
+(PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">38</column>
+            <column name="concepto">Enriquecimientos obtenidos por Servicios Tecnológicos
+utilizados en el país o cedidos a Terceros (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">39</column>
+            <column name="concepto">Enriquecimientos obtenidos por Servicios Tecnológicos
+utilizados en el país o cedidos a Terceros (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">40</column>
+            <column name="concepto">Enriquecimientos Netos derivados de las Primas de
+Seguros y Reaseguros (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">41</column>
+            <column name="concepto">Ganancias Obtenidas por Juegos y Apuestas (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">42</column>
+            <column name="concepto">Ganancias Obtenidas por Juegos y Apuestas (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">43</column>
+            <column name="concepto">Ganancias Obtenidas por Juegos y Apuestas (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">44</column>
+            <column name="concepto">Ganancias Obtenidas por Juegos y Apuestas (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">45</column>
+            <column name="concepto">Ganancias Obtenidas por Premios de Loterías y de
+Hipódromos (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">46</column>
+            <column name="concepto">Ganancias Obtenidas por Premios de Loterías y de
+Hipódromos (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">47</column>
+            <column name="concepto">Ganancias Obtenidas por Premios de Loterías y de
+Hipódromos (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">48</column>
+            <column name="concepto">Ganancias Obtenidas por Premios de Loterías y de
+Hipódromos (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">49</column>
+            <column name="concepto">Pagos a Propietarios de Animales de Carrera por
+concepto de Premios (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">50</column>
+            <column name="concepto">Pagos a Propietarios de Animales de Carrera por
+concepto de Premios (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">51</column>
+            <column name="concepto">Pagos a Propietarios de Animales de Carrera por
+concepto de Premios (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">52</column>
+            <column name="concepto">Pagos a Propietarios de Animales de Carrera por concepto de Premios (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">53</column>
+            <column name="concepto">Pagos a Empresas Contratistas o Subcontratistas
+domiciliadas o no en el país, por la ejecución de obras o
+de la prestación de servicios en base a valuaciones y
+ordenes de pago (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">54</column>
+            <column name="concepto">Pagos a Empresas Contratistas o Subcontratistas
+domiciliadas o no en el país, por la ejecución de obras o
+de la prestación de servicios en base a valuaciones y
+ordenes de pago (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">55</column>
+            <column name="concepto">Pagos a Empresas Contratistas o Subcontratistas
+domiciliadas o no en el país, por la ejecución de obras o
+de la prestación de servicios en base a valuaciones y
+ordenes de pago (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">56</column>
+            <column name="concepto">Pagos a Empresas Contratistas o Subcontratistas
+domiciliadas o no en el país, por la ejecución de obras o
+de la prestación de servicios en base a valuaciones y
+ordenes de pago (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">57</column>
+            <column name="concepto">Pagos a los Arrendadores de los bienes inmuebles a los
+Arrendadores de los bienes inmuebles situados en el
+país (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">58</column>
+            <column name="concepto">Pagos a los Arrendadores de los bienes inmuebles a los
+Arrendadores de los bienes inmuebles situados en el
+país (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">59</column>
+            <column name="concepto">Pagos a los Arrendadores de los bienes inmuebles a los
+Arrendadores de los bienes inmuebles situados en el
+país (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">60</column>
+            <column name="concepto">Pagos a los Arrendadores de los bienes inmuebles a los
+Arrendadores de los bienes inmuebles situados en el
+país (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">61</column>
+            <column name="concepto">Cánones de Arrendamientos de Bienes Muebles situados
+en el país (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">62</column>
+            <column name="concepto">Cánones de Arrendamientos de Bienes Muebles situados
+en el país (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">63</column>
+            <column name="concepto">Cánones de Arrendamientos de Bienes Muebles situados
+en el país (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">64</column>
+            <column name="concepto">Cánones de Arrendamientos de Bienes Muebles situados
+en el país (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">65</column>
+            <column name="concepto">Pagos de las Empresas Emisoras de Tarjetas de Crédito
+o Consumo por la Venta de Bienes y servicios, o
+cualquier otro concepto (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">66</column>
+            <column name="concepto">Pagos de las Empresas Emisoras de Tarjetas de Crédito
+o Consumo por la Venta de Bienes y servicios, o
+cualquier otro concepto (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">67</column>
+            <column name="concepto">Pagos de las Empresas Emisoras de Tarjetas de Crédito
+o Consumo por la Venta de Bienes y servicios, o
+cualquier otro concepto (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">68</column>
+            <column name="concepto">Pagos de las Empresas Emisoras de Tarjetas de Crédito
+o Consumo por la Venta de Bienes y servicios, o
+cualquier otro concepto (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">69</column>
+            <column name="concepto">Pagos de las Empresas Emisoras de Tarjetas de Crédito
+por la venta de gasolina en las Estaciones de Servicios
+(PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">70</column>
+            <column name="concepto">Pagos de las Empresas Emisoras de Tarjetas de Crédito
+por la venta de gasolina en las Estaciones de Servicios
+(PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">71</column>
+            <column name="concepto">Pagos por Gastos de Transporte conformados por Fletes
+(PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">72</column>
+            <column name="concepto">Pagos por Gastos de Transporte conformados por Fletes
+(PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">73</column>
+            <column name="concepto">Pagos de las Empresas de Seguro, las Sociedades de
+Corretaje de Seguros y las Empresas de Reaseguros por
+las Prestaciones de Servicios que le son propios (PNR</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">74</column>
+            <column name="concepto">Pagos de las Empresas de Seguro, las Sociedades de
+Corretaje de Seguros y las Empresas de Reaseguros por
+las Prestaciones de Servicios que le son propios (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">75</column>
+            <column name="concepto">Pagos de las Empresas de Seguro a sus Contratistas por
+la Reparación de Daños sufridos de sus Asegurados
+(PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">76</column>
+            <column name="concepto">Pagos de las Empresas de Seguro a sus Contratistas por
+la Reparación de Daños sufridos de sus Asegurados
+(PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">77</column>
+            <column name="concepto">Pagos de las Empresas de Seguros a Clínicas,
+Hospitales y/o Centros de Salud por la Atención Medica a
+sus Asegurados (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">78</column>
+            <column name="concepto">Pagos de las Empresas de Seguros a Clínicas,
+Hospitales y/o Centros de Salud por la Atención Medica a
+sus Asegurados (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">79</column>
+            <column name="concepto">Cantidades que se paguen por adquisición de Fondos de
+Comercio situados en el país (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">80</column>
+            <column name="concepto">Cantidades que se paguen por adquisición de Fondos de
+Comercio situados en el país (PNNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">81</column>
+            <column name="concepto">Cantidades que se paguen por adquisición de Fondos de
+Comercio situados en el país (PJD</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">82</column>
+            <column name="concepto">Cantidades que se paguen por adquisición de Fondos de
+Comercio situados en el país (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">83</column>
+            <column name="concepto">Pagos por Servicios de Publicidad y Propaganda y la
+Cesión de la Venta de Espacios para tales fines (PNR)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">84</column>
+            <column name="concepto">Pagos por Servicios de Publicidad y Propaganda y la
+Cesión de la Venta de Espacios para tales fines (PJD)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">85</column>
+            <column name="concepto">Pagos por Servicios de Publicidad y Propaganda y la
+Cesión de la Venta de Espacios para tales fines (PJND)</column>
+        </table>
+        <table name="seniat_codigo_concepto_retencion_islr">
+            <column name="codigo">86</column>
+            <column name="concepto">Pagos por Servicios de Publicidad y Propaganda y la
+Cesión de la Venta de Espacios para tales fines a
+Emisoras de Radio (PJD)</column>
+        </table>
+    </database>
+</pma_xml_export>
