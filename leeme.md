@@ -16,8 +16,7 @@ de fecha lunes 12 de mayo de 1997.
 ## Licencia de uso:
 Usted es libre de usar y/o distribuir esta información
 según la siguiente licencia:
-[Atribución-CompartirIgual 3.0 Venezuela {CC BY-SA 3.0 VE}]
-(https://creativecommons.org/licenses/by-sa/3.0/ve/)
+[Atribución-CompartirIgual 3.0 Venezuela {CC BY-SA 3.0 VE}](https://creativecommons.org/licenses/by-sa/3.0/ve/)
 
 ## English language:
 This information only is valid if you are resident at the 
@@ -25,5 +24,4 @@ Republic Bolivarian Of Venezuela, all under the Organic Law on Income Tax,
 its regulations and its partial regulation.
 
 For english speakers the license is:
-[Attribution-ShareAlike 2.0 UK: England & Wales {CC BY-SA 2.0 UK}]
-(https://creativecommons.org/licenses/by-sa/2.0/uk/)
+[Attribution-ShareAlike 2.0 UK: England & Wales {CC BY-SA 2.0 UK}](https://creativecommons.org/licenses/by-sa/2.0/uk/)
